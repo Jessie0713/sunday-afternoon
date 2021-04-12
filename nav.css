@@ -1,0 +1,102 @@
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin:0
+
+}
+  body{
+    font-family: 'CALIST', serif;
+  }
+  p{
+    font-size: 18px;
+  }
+
+.nav-bar{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: #fff;
+
+}
+.navigation{
+ padding: 30px 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ height: 60px;
+}
+
+.logo{
+  opacity: 0.9;
+  display: block;
+  margin-top: -20px;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  
+}
+.menu li{
+  margin: 0px 15px;
+}
+.menu li a{
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  color:rgb(0, 0, 0,0.6);
+  
+}
+.menu li a:hover{
+  color: black;
+}
+.menu li:after{
+  content: "";
+  height: 2px;
+  width: 0;
+  display: block;
+  left: 0px;
+  transition: 0.5s;
+  
+ 
+
+ 
+}
+
+.menu li:hover::after{
+  width: 100%;
+  background-color: black;
+}
+.nav-icon{
+  display: flex;
+  list-style: none;
+  margin-left: auto; 
+}
+.nav-icon li{
+  margin: -1px 10px; 
+}
+.nav-icon li i{
+  color: rgba(43, 41, 41, 0.6);
+  margin: auto;
+  line-height: 1;  
+}
+.fa-search{
+  font-size: 18px;
+}
+.fa-instagram{
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+.fa-shopping-bag{
+  font-size: 18.5px; 
+  display: block; 
+}
+.line{
+  margin:  auto;
+  margin-top: 3px;
+  width: 98%;
+  height: 1px;
+  background-color: rgba(43, 41, 41, 0.6);
+  opacity: 0.7;
+}

@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 15px 0px;
+}
+h2{
+  font-size: 30px;
+}
+body{
+  font-family: 'CALIST', serif;
+}
+
+.container{
+  padding-top:120px;
+  width: 1280px;
+  margin: auto;
+  
+}
+.content-series img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius:50% ;
+}
+.content-series:hover img{
+  filter:blur(1px) brightness(.6);
+}
+.content-series:hover p{
+  display: block;
+}
+
+.content-series p::after{
+  content: '';
+  height: 2px;
+  width: 0;
+  transition: 0.5s;
+}
+.content-series p:hover::after{
+  width: 60%;
+  background-color: #fff;
+  margin: 6px auto;
+  display: block;
+}
+.content-series{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin:30px;
+}
+.content-series p{
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  width: 304px;
+  text-align: center;
+  display:none ;
+}
+
+.series{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+}
+.hot-sale{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hot-sale1{
+  width: 600px;
+  margin: 30px 20px;
+}
+.hot-sale1-img{
+  background-image: url('sunday-afternoon-pic/picnic/picnic組合.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  
+}
+
+.footer-container{
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container p{
+  font-weight: bold;
+  color:rgb(0, 0, 0,0.6);
+}
+.footer-container i{
+  padding-left: 5px;
+  color:rgb(0, 0, 0,0.6);
+}
+.topic{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ 

@@ -1,0 +1,263 @@
+*{
+  padding:0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'CALIST', serif;
+}
+
+h1{
+  font-size: 40px;
+ 
+}
+
+h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body{
+  font-family: 'CALIST', serif;
+}
+
+
+.nav-bar{
+width: 100%;
+position: fixed;
+z-index: 100;
+background-color: #fff;
+
+}
+.navigation{
+padding: 30px 50px;
+display: flex;
+justify-content: space-between;
+height: 60px;
+}
+
+.logo{
+opacity: 0.9;
+display: block;
+margin-top:-40px ;
+}
+.menu{
+display: flex;
+list-style: none;
+
+}
+.menu li{
+margin: -20px 15px;
+}
+.menu li a{
+text-decoration: none;
+list-style: none;
+font-weight: bold;
+color:rgb(0, 0, 0,0.6);
+
+}
+.menu li a:hover{
+color: black;
+}
+.menu li:after{
+content: "";
+height: 2px;
+width: 0;
+display: block;
+left: 0px;
+transition: 0.5s;
+
+
+
+
+}
+
+.menu li:hover::after{
+width: 100%;
+background-color: black;
+}
+.nav-icon{
+display: flex;
+list-style: none;
+margin-left: auto; 
+}
+.nav-icon li{
+margin: -1px 10px; 
+}
+.nav-icon li i{
+color: rgba(43, 41, 41, 0.6);
+margin: auto;
+line-height: 1;  
+}
+.fa-search{
+font-size: 18px;
+}
+.fa-instagram{
+font-size: 20px;
+font-weight: bold;
+display: block;
+}
+.fa-shopping-bag{
+font-size: 18.5px; 
+display: block; 
+}
+.line{
+margin:  auto;
+margin-top: 3px;
+width: 98%;
+height: 1px;
+background-color: rgba(43, 41, 41, 0.6);
+opacity: 0.7;
+}
+
+.banner img{
+  width: 1280px;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  
+}
+.container{
+  width: 1280px;
+  margin: auto;
+}
+.info{ 
+  border-bottom: 1px solid rgba(211, 202, 202, 0.6);
+  padding: 10px 0px;
+
+}
+.booking-info{
+  margin: 10px 0;
+}
+.booking-wrap{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(211, 202, 202, 0.6);
+  padding-bottom: 10px;
+}
+.booking-wrap select{
+  width: 100%;
+  margin-right: 10px;
+  padding: 7px;
+  font-size: 15px;
+  border: 1px solid black;
+  
+}
+.booking-wrap p{
+  font-size: 20px;
+  margin: 7px 0;
+}
+
+.booking-wrap div:nth-child(1){
+  width: 277.5px;
+}
+.booking-wrap div:nth-child(2){
+  width: 277.5px;
+  margin-top: auto;
+}
+.booking-wrap div:nth-child(3){
+  width: 565px;
+}
+
+.time-info{
+  border-bottom: 1px solid rgba(211, 202, 202, 0.6);
+  padding: 10px 0px; 
+}
+.time-btn{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.time-group button{
+ 
+ width: 180px;
+ line-height: 2;
+ background-color: #fff;
+ font-size: 16px;
+
+}
+.phone{
+  display: flex;
+  justify-content:center;
+}
+.fa-phone{
+  display:  block;
+  line-height: 1.3;
+  padding-right: 3px;
+  
+}
+.phone-group p{
+  text-align: center;
+}
+.phone-group{
+  padding: 10px 0 ;
+}
+.location{
+padding: 10px  ;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid rgba(211, 202, 202, 0.6);
+
+
+}
+
+.location img{
+  width: 30%;
+}
+.location-info{
+  padding: 30px 10px;
+  width: 50%; 
+}
+.location-info-topic{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.location-info div{
+ padding: 10px 0;
+ 
+}
+.location-info-txt{
+  font-size: 20px;
+}
+
+.location-info-txt::after{
+  content:"";
+  display: block;
+  width: 95%;
+  background-color: rgba(211, 202, 202, 0.6);
+  height: 2px;
+  margin-top: 8px;
+}
+
+.location-picture{
+  width:45%;
+}
+
+.location-picture img{
+  width: 100%;
+}
+
+.menu{
+  padding: 20px 0;
+}
+  
+
+
+.footer-container{
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container p{
+  font-weight: bold;
+  color:rgb(0, 0, 0,0.6);
+}
+.footer-container i{
+  padding-left: 5px;
+  color:rgb(0, 0, 0,0.6);
+}
